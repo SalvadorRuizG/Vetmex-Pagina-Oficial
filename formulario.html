@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>VetMex</title>
+    <link rel="shortcut icon" href="img/icono.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <section class="header-formulario">
+      <div class="contenedor-menu">
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <a href="index.html"><img src="img/logo.png" alt="" class="logo-imagen"></a>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <main>
+      <section class="about-services" id="producto">
+        <div class="contenedor">
+          <h2 class="titulo">Adquiere nuestro software para tu clínica veterinaria</h2>
+          <div class="servicio-cont">
+            <form class="formulario" action="base-de-datos.html">
+              <input class="datos" type="text" placeholder="Nombre*" required> <br><br>
+              <input class="datos" type="email" placeholder="E-mail*" required/><br><br>
+              <input class="datos" type="text" placeholder="Teléfono*" required><br><br>
+              <input class="datos" type="text" placeholder="Nombre de la clínica veterinaria*" required><br><br>
+              <textarea class="datos" rows="3" cols="30" type="text" value="Mensaje" placeholder="Mensaje"></textarea><br><br>
+              <label><input class="check" type="checkbox" value="terminos" required /> Acepto las <a href="terminos-y-condiciones.html">condiciones legales</a></label><br><br>
+              <label><input class="check" type="checkbox" value="informacion" required /> Acepto recibir información comercial</label><br><br>
+              <input class="boton" type="submit" value="Enviar"/>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="contenedor-footer">
+        <div class="content-foo">
+          <h4>Teléfono</h4>
+          <p>+52 55 5967 7694</p>
+        </div>
+        <div class="content-foo">
+          <h4>E-mail</h4>
+          <p>VetMex@gmail.com</p>
+        </div>
+        <div class="content-foo">
+          <h4>Locación</h4>
+          <p>Av. Té 950, Granjas México, Iztacalco, 08400 Ciudad de México, CDMX
+</p>
+        </div>
+      </div>
+      <h2 class="titulo-final">Copyright &copy; VetMex | Todos los derechos reservados - <a href="terminos-y-condiciones.html">Política de privacidad</a></h2>
+    </footer>
+  </body>
+</html>
